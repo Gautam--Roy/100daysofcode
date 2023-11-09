@@ -1,9 +1,22 @@
-print("What is your name? ")
-input("Type your name: ")
+# Variables
+name = input("What is your name? ")
+print(name)
 
 
-print("Hello " + input("What is your name? "))
+name2 = input("What is your name? ")
+length = len(name2)
+print(length)
+
+# Updating variables
+a = input("a: ")
+b = input("b: ")
 
 
-# len function
-print(len(input("What is your name? ")))
+c = a
+a = b
+b = c
+
+
+
+print("a: " + a)
+print("b: " + b)
