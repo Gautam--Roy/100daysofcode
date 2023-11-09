@@ -1,1 +1,1 @@
-print("Hello World\nNext line")
+print("Gautam" + "Roy") #no space / String concatenation
