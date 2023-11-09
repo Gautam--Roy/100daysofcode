@@ -1,22 +1,10 @@
-# Variables
-name = input("What is your name? ")
-print(name)
-
-
-name2 = input("What is your name? ")
-length = len(name2)
-print(length)
-
-# Updating variables
-a = input("a: ")
-b = input("b: ")
-
-
-c = a
-a = b
-b = c
-
-
-
-print("a: " + a)
-print("b: " + b)
+#  Project Day 1 - Band name generator
+print("Band Name Generator")
+print("\n")
+print("\n")
+print("=== Answer the below questions and we'll generate a new band name for you ===")
+print("\n")
+print("\n")
+city_name = input("Enter the name of your city: ")
+pet_name = input("Enter the name of your pet: ")
+print("Here's a new band name for your band: " + city_name + " " + pet_name)
